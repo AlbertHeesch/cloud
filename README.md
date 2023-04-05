@@ -18,6 +18,7 @@ Java 11
 Gradle
 
 ## How to run
+Set `spring.cloud.config.server.native.searchLocations` path to `application-config` file (by default in project root) in `application.properties`.
 
 Build your gradle with `gradlew build` in terminal.
 
